@@ -1,8 +1,10 @@
 # blueballs for Emacs
 
-Yet another blue-ish theme for Emacs
+**Yet another blue-ish theme for Emacs**
 
-![Screenshot](screenshot.png)[^1]
+![Screenshot](screenshot.png)
+
+Modes visible in the screenshot: `solaire-mode`, `doom-modeline`, `treemacs`, `magit`, `org-mode`, `haskell-mode`
 
 ## Supported modes
 - [doom-modeline](https://github.com/seagle0128/doom-modeline)
@@ -18,4 +20,3 @@ Yet another blue-ish theme for Emacs
 - [Magit](https://magit.vc/) (partial)
 - [web-mode](https://web-mode.org/)
 
-[^1]:Modes visible in the screenshot: `solaire-mode`, `doom-modeline`, `treemacs`, `magit`, `org-mode`, `haskell-mode`
