@@ -12,7 +12,7 @@ Modes visible in the screenshot: `solaire-mode`, `highlight-indent-guides-mode`,
 - [Treemacs](https://github.com/Alexander-Miller/treemacs)
 - [Ivy](https://github.com/abo-abo/swiper)
 - [which-key](https://github.com/justbur/emacs-which-key)
-- [Company](http://company-mode.github.io/)
+- [Company](http://company-mode.github.io/) (partial)
 - [Dashboard](https://github.com/emacs-dashboard/emacs-dashboard)
 - [Flycheck](https://www.flycheck.org/en/latest/)
 - [flycheck-inline](https://github.com/flycheck/flycheck-inline)
