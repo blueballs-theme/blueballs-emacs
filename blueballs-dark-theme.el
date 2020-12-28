@@ -316,9 +316,26 @@
    `(web-mode-doctype-face ((t (:inherit font-lock-comment-face
 				:weight  bold))))
 
-   `(web-mode-html-tag-face         ((t :inherit font-lock-keyword-face)))
-   `(web-mode-html-tag-bracket-face ((t (:inherit default))))
+   `(web-mode-html-tag-face         ((t (:inherit    font-lock-keyword-face))))
+   `(web-mode-html-tag-bracket-face ((t (:inherit    default))))
    `(web-mode-html-attr-name-face   ((t (:foreground ,blueballs-purple))))
+
+   ;;; monkeytype
+   `(monkeytype-dimmed     ((t (:inherit    font-lock-comment-face))))
+   `(monkeytype-error      ((t (:inherit    error))))
+   `(monkeytype-notice     ((t (:inherit    warning))))
+   `(monkeytype-legend-1   ((t (:foreground ,blueballs-accent
+				:weight     bold))))
+   `(monkeytype-legend-2   ((t (:inherit    default))))
+
+   `(monkeytype-results-error   ((t (:inherit error))))
+   `(monkeytype-results-success ((t (:inherit success))))
+
+   `(monkeytype-correction-correct ((t (:inherit success))))
+   `(monkeytype-correction-error   ((t (:inherit error))))
+
+   `(monkeytype-mode-line-error   ((t (:inherit error))))
+   `(monkeytype-mode-line-success ((t (:inherit success))))
    ))
 
 ;;;###autoload

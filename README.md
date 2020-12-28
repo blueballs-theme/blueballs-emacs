@@ -19,4 +19,4 @@ Modes visible in the screenshot: `solaire-mode`, `highlight-indent-guides-mode` 
 - [Org](https://orgmode.org/)
 - [Magit](https://magit.vc/) (partial)
 - [web-mode](https://web-mode.org/)
-
+- [Monkeytype](https://github.com/jpablobr/emacs-monkeytype)
