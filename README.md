@@ -1,12 +1,14 @@
-# blueballs for Emacs
+<div align="center">
 
 ![Emacs](icon.svg)
 
-**Yet another blue-ish theme for Emacs**
+# Yet another blue-ish theme for Emacs
 
 ![Screenshot](screenshot.png)
 
 Modes visible in the screenshot: `solaire-mode`, `highlight-indent-guides-mode`, `doom-modeline`, `treemacs`, `magit`, `org-mode`, `org-indent-mode`, `haskell-mode`
+
+</div>
 
 ## Supported modes
 - [doom-modeline](https://github.com/seagle0128/doom-modeline)
