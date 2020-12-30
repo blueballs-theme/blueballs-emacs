@@ -1,5 +1,7 @@
 # blueballs for Emacs
 
+![Emacs](icon.svg)
+
 **Yet another blue-ish theme for Emacs**
 
 ![Screenshot](screenshot.png)
