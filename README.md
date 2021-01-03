@@ -24,3 +24,4 @@ Modes visible in the screenshot: `solaire-mode`, `highlight-indent-guides-mode`,
 - [Magit](https://magit.vc/) (partial)
 - [web-mode](https://web-mode.org/)
 - [Monkeytype](https://github.com/jpablobr/emacs-monkeytype)
+- [Solaire](https://github.com/hlissner/emacs-solaire-mode)

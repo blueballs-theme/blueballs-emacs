@@ -364,6 +364,9 @@
 
    `(monkeytype-mode-line-error   ((t (:inherit error))))
    `(monkeytype-mode-line-success ((t (:inherit success))))
+
+   ;;; solaire-mode
+   `(solaire-default-face          ((t (:background ,blueballs-dark-base1))))
    ))
 
 ;;;###autoload
