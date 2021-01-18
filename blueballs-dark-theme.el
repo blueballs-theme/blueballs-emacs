@@ -273,7 +273,7 @@
    `(org-agenda-dimmed-todo-face ((t (:inherit    font-lock-comment-face))))
    `(org-code                    ((t (:foreground ,blueballs-purple1))))
    `(org-verbatim                ((t (:foreground ,blueballs-pink1))))
-   `(org-table                   ((t (:foreground ,blueballs-light-base2))))
+   `(org-table                   ((t (:inherit    org-block))))
    `(org-document-title          ((t (:foreground ,blueballs-accent
 				      :weight     bold))))
    `(org-document-info           ((t (:foreground ,blueballs-accent))))
