@@ -182,28 +182,38 @@
    `(rainbow-delimiters-base-error-face ((t (:inherit    error))))
    
    ;; treemacs
-   `(treemacs-root-face                     ((t (:foreground ,blueballs-accent
+   `(treemacs-file-face                     ((t (:inherit    variable-pitch))))
+   `(treemacs-root-face                     ((t (:inherit    variable-pitch
+						 :foreground ,blueballs-accent
 						 :weight     bold
 						 :height     1.2))))
-   `(treemacs-directory-face                ((t (:foreground ,blueballs-light-base
+   `(treemacs-directory-face                ((t (:inherit    variable-pitch
+						 :foreground ,blueballs-light-base
 						 :weight     bold))))
    `(treemacs-root-remote-face              ((t (:foreground ,blueballs-green))))
    `(treemacs-root-remote-disconnected-face ((t (:foreground ,blueballs-red))))
 
    `(treemacs-help-column-face      ((t (:foreground ,blueballs-accent
 				         :weight     bold))))
-   `(treemacs-help-title-face       ((t (:foreground ,blueballs-accent
+   `(treemacs-help-title-face       ((t (:inherit    variable-pitch
+					 :foreground ,blueballs-accent
 					 :weight     bold
 				 	 :height     1.2
 					 :underline  t))))
    `(treemacs-fringe-indicator-face ((t (:foreground ,blueballs-accent))))
    
-   `(treemacs-git-untracked-face ((t (:foreground ,blueballs-comment))))
-   `(treemacs-git-ignored-face   ((t (:foreground ,blueballs-selection))))
-   `(treemacs-git-added-face     ((t (:foreground ,blueballs-green))))
-   `(treemacs-git-conflict-face  ((t (:foreground ,blueballs-red))))
-   `(treemacs-git-modified-face  ((t (:foreground ,blueballs-orange))))
-   `(treemacs-git-renamed-face   ((t (:foreground ,blueballs-yellow))))
+   `(treemacs-git-untracked-face ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-comment))))
+   `(treemacs-git-ignored-face   ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-selection))))
+   `(treemacs-git-added-face     ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-green))))
+   `(treemacs-git-conflict-face  ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-red))))
+   `(treemacs-git-modified-face  ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-orange))))
+   `(treemacs-git-renamed-face   ((t (:inherit    variable-pitch
+				      :foreground ,blueballs-yellow))))
 
    ;; ivy
    `(ivy-cursor                     ((t (:inherit    cursor))))
